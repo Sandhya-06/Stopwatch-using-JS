@@ -25,6 +25,7 @@ stopBtn.addEventListener('click',function(){
 // event handler for reset button
 resetBtn.addEventListener('click',function(){
     startTime=0;
+    intervalId=null;
     display.textContent="00:00:00"
 });
 //funtion for updating time
